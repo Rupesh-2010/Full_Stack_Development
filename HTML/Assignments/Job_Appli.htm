@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFD700;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #cdfacd;
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-section legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            display: inline-block;
+            width: 120px;
+        }
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .form-row label {
+            width: auto;
+        }
+        .form-row input {
+            flex: 1;
+            margin-left: 10px;
+            margin-right: 20px;
+        }
+        .form-group input {
+            padding: 5px;
+        }
+        .form-group #phone {
+            width: 200px;
+        }
+        .form-group textarea {
+            width: calc(100% - 130px);
+            height: 100px;
+            padding: 5px;
+        }
+        .form-group .gender {
+            width: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table th, table td {
+            border: 1px solid #000;
+            text-align: left;
+            padding: 5px;
+        }
+        table input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+        .submit-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+
+        <fieldset class="form-section">
+            <legend>Personal Details</legend>
+            <div class="form-row">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" placeholder="Enter First Name">
+                <label for="middle-name">Middle Name:</label>
+                <input type="text" id="middle-name" placeholder="Enter Middle Name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" placeholder="Enter Last Name">
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male" class="gender"> Male
+                <input type="radio" name="gender" value="Female" class="gender"> Female
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No:</label>
+                <input type="text" id="phone" placeholder="Enter Mobile No.">
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" placeholder="Enter Address"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset class="form-section">
+            <legend>Education Details</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Board/University</th>
+                        <th>Passing Year</th>
+                        <th>Division</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10th</td>
+                        <td><input type="text" placeholder="Enter Board/University"></td>
+                        <td><input type="text" placeholder="Enter Passing Year"></td>
+                        <td><input type="text" placeholder="Enter Division"></td>
+                    </tr>
+                    <tr>
+                        <td>12th</td>
+                        <td><input type="text" placeholder="Enter Board/University"></td>
+                        <td><input type="text" placeholder="Enter Passing Year"></td>
+                        <td><input type="text" placeholder="Enter Division"></td>
+                    </tr>
+                    <tr>
+                        <td>Graduation</td>
+                        <td><input type="text" placeholder="Enter Board/University"></td>
+                        <td><input type="text" placeholder="Enter Passing Year"></td>
+                        <td><input type="text" placeholder="Enter Division"></td>
+                    </tr>
+                    <tr>
+                        <td>Others</td>
+                        <td><input type="text" placeholder="Enter Board/University"></td>
+                        <td><input type="text" placeholder="Enter Passing Year"></td>
+                        <td><input type="text" placeholder="Enter Division"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+
+        <fieldset class="form-section">
+            <legend>Experience</legend>
+            <class="form-group">
+                <label for="experience">Experience (in Months):
+                    <br> 96 months experience of teaching field</label>
+                <!-- <input type="text" id="experience" value="96 months experience of teaching field" readonly> -->
+            
+        </fieldset>
+
+        <div class="submit-btn">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
