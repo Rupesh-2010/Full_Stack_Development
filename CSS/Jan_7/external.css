@@ -1,0 +1,23 @@
+@import url(./External1.htm);
+
+#demo{
+    background-color: blue;
+    text-align: center;
+}
+
+#demo1{
+    text-align: center;
+    text-shadow: 2cap;
+}
+
+#E1{
+    border: 2px solid;
+    background-color:aqua;
+}
+
+#E2{
+    text-align: center;
+    /* border: 2px solid black; */
+    text-decoration: overline;
+    
+}
