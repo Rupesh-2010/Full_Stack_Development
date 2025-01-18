@@ -1,0 +1,26 @@
+p{
+    color: red;
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+    /* text-shadow: 10px 10px 2px red; */
+
+    /* text-indent: 100px; */
+
+    /* letter-spacing: 5px; */
+    /* word-spacing: 55px; */
+
+    /* line-height: 40px; */
+}
+
+h1{
+    color: blueviolet;
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: left;
+}
