@@ -1,0 +1,9 @@
+h1::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+h2::first-line{ /*fisrt line will be decorated only */
+    color: blue;
+    font-size: xx-large;
+}
