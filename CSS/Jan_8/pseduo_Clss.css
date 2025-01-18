@@ -1,0 +1,61 @@
+
+
+a:link{
+    color: red;
+    background-color: yellow;
+}
+
+a:active{
+    color: beige;
+    background-color: black;
+}
+
+input :focus{
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+}
+
+input[type="checkbox"]:checked{
+    height: 100px;
+    width: 100px;
+}
+
+input[type="radio"]:checked{
+    height: 50px;
+    width: 50px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+}
+div:hover{
+    background-color: salmon;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+h1:first-child{
+    background-color: blue;
+}
+
+h1:nth-child(2){
+    background-color: black;
+    color: aliceblue;
+}
+
+h1:nth-child(3){
+    background-color: chartreuse;
+
+}
+
+h1:last-child{
+    background-color: blueviolet;
+}
+
+p {
+    height: 30px;
+    text-indent: 20px;
+}

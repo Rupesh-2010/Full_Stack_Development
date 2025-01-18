@@ -7,3 +7,22 @@ h2::first-line{ /*fisrt line will be decorated only */
     color: blue;
     font-size: xx-large;
 }
+
+h3::before{
+    content: url("");
+}
+h3::after{
+    content: "Rupesh";
+}   
+
+li::marker{
+    color: red;
+}
+
+li+li::marker{
+    content: url();
+}
+
+p::selection{
+    background-color: yellow;
+}
