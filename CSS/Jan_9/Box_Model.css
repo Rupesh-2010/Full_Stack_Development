@@ -1,0 +1,24 @@
+div{
+    /* border: 10px solid red; */
+    border-top: 10px dotted green;
+    border-left: 10px dashed blue;
+    border-bottom: 10px double purple;
+    border-right: 10px groove skyblue;
+    height: 200px;
+    width: 300px;
+    /* padding: 200px; */
+    padding-top: 130px;
+    /* padding-bottom: 10px; */
+    /* padding-left: 200px; */
+    /* padding-right: 60px; */
+    box-sizing: border-box;
+}
+
+button{
+    height: 100px;
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-top: 50px
+    ;
+}
