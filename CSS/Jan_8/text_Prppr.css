@@ -24,3 +24,30 @@ h1{
     /* text-align: right; */
     text-align: left;
 }
+
+h2{
+    border: 3px solid;
+    height: 300px;
+    width: 300px;
+    /* overflow: visible; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    /* overflow-x: hidden; */
+}
+
+h3{
+    text-align: center;
+    height: 45px;
+    width: 100px;
+    border: 3px solid;
+    /* text-decoration-line: underline ; */
+    /* text-decoration-style: dotted ; */
+    /* text-decoration-style: wavy ; */
+    /* text-decoration-color: red ; */
+    text-emphasis: "R";
+
+    
+}
