@@ -1,0 +1,24 @@
+h1{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1911602365/photo/new-life-in-forest.webp?b=1&s=612x612&w=0&k=20&c=8syzNrlOdT62SsFZwcpETf1E4MDZSHZ27YD3_1FkP70=");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 100%; */
+    /* background-position: center; */
+    /* background-position: top; */
+    /* background-position: left; */
+    /* background-position: left top; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    
+
+
+}
