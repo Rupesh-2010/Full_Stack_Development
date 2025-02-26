@@ -1,0 +1,30 @@
+table{
+  border: 1px solid rgb(94, 85, 85);
+  background-color: black;
+  color: yellow;
+}
+td, th{
+  border: 1px solid rgb(94, 85, 85);
+}
+
+th{
+  color: white;
+}
+img{
+  height: 200px;
+  width: 230px;
+}
+.menu-title{
+  color: yellow;
+}
+#menucard{
+  background-color: yellow;
+  color: black;
+  
+}
+div{
+  height: 20px;
+  width: 750px;
+  background-color: black;
+  margin-bottom: 7px;
+}

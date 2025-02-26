@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+height: 800px;
+width: 90%;
+border: 1px solid black;
+background: linear-gradient(to bottom right, rgb(165, 69, 6),blueviolet);
+align-items: center;
+}
+
+/* First container */
+.firstcontainer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firstcontainer div{
+    height: 220px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    background: linear-gradient(to bottom right, yellow, rgb(228, 110, 63));
+}
+.firstcontainer div .childs{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom right, rgb(86, 193, 201),rgb(41, 41, 197));
+}
+.firstcontainer #box1{
+    justify-content: start;
+}
+
+.firstcontainer #box2{
+    justify-content: center;
+}
+.firstcontainer #box3{
+    justify-content: end;
+}
+.firstcontainer #box4{
+    justify-content: space-around;
+}
+.firstcontainer #box5{
+    justify-content: space-between;
+}
+.firstcontainer #box6{
+    justify-content: space-evenly;
+}
+.firstcontainer #box7{
+    justify-content: left;
+}
+
+/* second container */
+.secondcontainer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.secondcontainer div{
+    height: 220px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    background: linear-gradient(to bottom right, yellow, rgb(228, 110, 63));
+}
+.secondcontainer div .childs{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom right, rgb(86, 193, 201),rgb(41, 41, 197));
+}
+.secondcontainer #box1{
+    align-items: center;
+}
+.secondcontainer #box2{
+    align-items: end;
+}
+.secondcontainer #box3{
+    justify-content: center;
+    align-items: center;
+}
+.secondcontainer #box4{
+    justify-content: center;
+    align-items: end;
+}

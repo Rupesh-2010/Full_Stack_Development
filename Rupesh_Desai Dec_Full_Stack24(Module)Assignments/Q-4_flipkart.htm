@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flipkart Login Page</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f1f2f4;
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+}
+.container {
+display: flex;
+height: 70vh;
+border: 2px solid black;
+margin: 5px;
+width: 50%;
+}
+.left-section {
+background-color: #2874f0;
+color: white;
+padding: 40px;
+width: 35%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.left-section h1 {
+margin: 0;
+font-size: 28px;
+}
+.left-section p {
+margin-top: 15px;
+font-size: 14px;
+}
+.left-section img {
+margin-top: 20px;
+width: 60%;
+align-self: center;
+}
+.right-section {
+background-color: white;
+padding: 40px;
+width: 65%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.input-box {
+margin-bottom: 40px;
+font-size: 14px;
+}
+.input-box input {
+width: 100%;
+padding: 5px;
+margin-top: 5px;
+font-size: 14px;
+border: none;
+border-bottom: 1px solid black;
+}
+.terms {
+font-size: 12px;
+margin: 15px 0;
+color: #878787;
+}
+.terms a {
+color: #2874f0;
+text-decoration: none;
+}
+.terms a:hover {
+text-decoration: underline;
+}
+.btn {
+background-color: #ff5722;
+color: white;
+border: none;
+padding: 12px;
+font-size: 14px;
+width: 100%;
+border-radius: 4px;
+cursor: pointer;
+}
+.btn:hover {
+background-color: #e64a19;
+}
+.footer {
+text-align: center;
+margin-top: 15px;
+font-size: 14px;
+}
+.footer a {
+color: #2874f0;
+text-decoration: none;
+}
+.footer a:hover {
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="left-section">
+<div>
+<h1>Login</h1>
+<p>Get access to your Orders, Wishlist and
+Recommendations</p>
+</div>
+<img src="./IMG/flip.png" alt="Flipkart Graphic">
+</div>
+
+
+<div class="right-section">
+<div>
+<div class="input-box">
+<input type="text" id="email" placeholder="Email or Mobile number">
+</div>
+<p class="terms">
+By continuing, you agree to Flipkart's
+<a href="#">Terms of Use</a> and
+<a href="#">Privacy Policy</a>.
+</p>
+<button class="btn">Request OTP</button>
+</div>
+<div class="footer"><a href="#">New to Flipkart? Create an account</a>
+</div>
+</div>
+</div>
+</body>
+</html>
