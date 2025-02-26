@@ -1,0 +1,23 @@
+/* static position */
+/* #demo{
+    border: 2px solid;
+    height: 300px;
+    width: 250px;
+} */
+
+#demo1{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 500px;
+    left: 600px;
+}
+
+#demo2{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 200px;
+}
